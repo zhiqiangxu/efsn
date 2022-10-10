@@ -37,9 +37,9 @@ import (
 
 	"github.com/FusionFoundation/efsn/v4/crypto"
 	"github.com/FusionFoundation/efsn/v4/crypto/ecies"
-	"github.com/FusionFoundation/efsn/v4/crypto/secp256k1"
 	"github.com/FusionFoundation/efsn/v4/p2p/discover"
 	"github.com/FusionFoundation/efsn/v4/rlp"
+	"github.com/ethereum/go-ethereum/crypto/secp256k1"
 	"github.com/golang/snappy"
 	"golang.org/x/crypto/sha3"
 )

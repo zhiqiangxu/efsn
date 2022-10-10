@@ -30,8 +30,8 @@ import (
 	"github.com/FusionFoundation/efsn/v4/core"
 	"github.com/FusionFoundation/efsn/v4/core/rawdb"
 	"github.com/FusionFoundation/efsn/v4/crypto"
-	"github.com/FusionFoundation/efsn/v4/crypto/secp256k1"
 	"github.com/FusionFoundation/efsn/v4/rlp"
+	"github.com/ethereum/go-ethereum/crypto/secp256k1"
 )
 
 // Constants to match up protocol versions and messages
